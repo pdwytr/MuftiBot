@@ -20,7 +20,7 @@
          "context": ["ten companions"]
         },
         {"tag":"Abu Bakr 2",
-         "patterns": ["Abu Bakr 2",,"Abu bakr pehla","Abu bakr first"],
+         "patterns": ["Abu Bakr 2","Abu bakr pehla","Abu bakr first"],
          "responses": [],
          "context": []
         },
