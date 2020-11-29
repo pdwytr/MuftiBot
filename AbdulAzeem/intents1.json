@@ -1,0 +1,13 @@
+{"intents1":[{"tag": "duration",
+            "patterns": ["What is duration of the course", "Duration", "what is duration", "duration of course", "duration of data                          science","what will be duration","duration what"],
+            "responses": ["The duration of course is 5 months,3 months for the training and rest for Hands on Projects","acv"],
+            "context": [""]
+            },
+            {"tag": "datascience", 
+             "patterns": ["what is data science", "data science","what data science","datascience","what is DS","Why is data science"],
+             "responses": ["Data Science is the fastest growing technology all around the globe, Its an inter-disciplinary field that uses                  scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured                  data. Data    science is related to data mining, machine learning and big data.Data Science now focus on Artificial                            intelligence","abc"],
+             "context": [""]
+            }
+     ]
+}
+       
