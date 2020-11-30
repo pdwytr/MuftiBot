@@ -1,0 +1,39 @@
+{"intents": [
+        {"tag": "General",
+         "patterns": ["dua","Allah sey pucho","Rabb Maango","Rub pucho","Dua aur asbaab","Tadbeer Saat Saat Dua Karna Na Bhoolein"],
+         "responses": ["https://abdulazeemmadani.com/whatsapp/details/7","https://abdulazeemmadani.com/whatsapp/details/17"],
+         "context": ["supplication"]
+        },
+        {"tag": "maghfirat",
+         "patterns": ["Foregiveness","Isteghfaar","Maghfirat pe","Ummat Mein Isteghfaar Ka Ijtemai Kirdaar Hona Chahiye","Istighfaar Karna Na Bhoolo"],
+         "responses": ["https://abdulazeemmadani.com/whatsapp/details/26","https://abdulazeemmadani.com/whatsapp/details/22"],
+         "context": ["foregiveness"]
+        },
+        {"tag": "juma",
+         "patterns": ["Juma Din Qabooliyat Dua Azeem Lamha","Juma","Juma key din ki dua","Juma dua"],
+         "responses": ["https://abdulazeemmadani.com/whatsapp/details/19"],
+         "context": ["supplication","friday"]
+        },
+        {"tag":"Abu Bakr 1",
+         "patterns": ["Abu Bakr 1","Abu bakr pehla","Abu bakr first","Abo Bakr first part"],
+         "responses": ["Part 2 - Seerah of Abu Bakr - Part 1 : https://abdulazeemmadani.com/audios_quick/16/part-2-seerah-of-abu-bakr-part-1","As"],
+         "context": ["ten companions","abu bakr"]
+        },
+        {"tag":"Abu Bakr 2",
+         "patterns": ["Abu Bakr 2","Abu bakr dusra","Abu bakr second","Biography Abu bakr first","life of abu bakr 2"],
+         "responses": ["Part 3 - Seerah of Abu Bakr - Part 2 \n https://abdulazeemmadani.com/audios_quick/17/part-3-seerah-of-abu-bakr-part-2"],
+         "context": ["ten companions","Abu Bakr"]
+        },
+        {"tag":"Umar 1",
+         "patterns": ["Umar 1","Umar pehla","umar first","Biography Umar first","life of umar 1"],
+         "responses": ["Part 4 - Seerah of Umar bin Al-Khattab رضي الله عنه - Part 1 \n https://abdulazeemmadani.com/audios_quick/18/part-4-seerah-of-umar-bin-al-khattab-part-1"],
+         "context": ["ten companions","Umar"]
+        },
+        {"tag":"Umar 2",
+         "patterns": ["part 6 series","Umar 2","Umar dusra","umar second","Biography Umar second","life of umar 2"],
+         "responses": ["Part 5 - Seerah of Umar bin Al-Khattab رضي الله عنه - Part 2 \n https://abdulazeemmadani.com/audios_quick/19/part-5-seerah-of-umar-bin-al-khattab-part-2"],
+         "context": ["ten companions","Umar"]
+        }
+    
+   ]
+}
