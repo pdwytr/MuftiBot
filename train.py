@@ -10,6 +10,11 @@ from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
 import random
 
+def cust_lemma(tokens):
+    for i in tokens:
+        if len(i)<3 and i.isdigit()==False:
+            tokens.remove(i)  
+            
 words=[]
 classes = []
 documents = []
@@ -34,6 +39,7 @@ for intent in intents['intents']:
 # lemmaztize and lower each word and remove duplicates
 words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
+cust_lemma(words)
 # sort classes
 classes = sorted(list(set(classes)))
 # documents = combination between patterns and intents

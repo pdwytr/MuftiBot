@@ -5,7 +5,7 @@
          "context": ["supplication"]
         },
         {"tag": "maghfirat",
-         "patterns": ["Foregiveness","Isteghfaar","Maghfirat pe","Ummat Mein Isteghfaar Ka Ijtemai Kirdaar Hona Chahiye","Istighfaar Karna Na Bhoolo"],
+         "patterns": ["Foregiveness","Isteghfaar","Maghfirat","Isteghfaar Ijtemai Kirdaar","Istighfaar Bhoolo"],
          "responses": ["https://abdulazeemmadani.com/whatsapp/details/26","https://abdulazeemmadani.com/whatsapp/details/22"],
          "context": ["foregiveness"]
         },
@@ -15,24 +15,59 @@
          "context": ["supplication","friday"]
         },
         {"tag":"Abu Bakr 1",
-         "patterns": ["Abu Bakr 1","Abu bakr pehla","Abu bakr first","Abo Bakr first part"],
-         "responses": ["Part 2 - Seerah of Abu Bakr - Part 1 : https://abdulazeemmadani.com/audios_quick/16/part-2-seerah-of-abu-bakr-part-1","As"],
+         "patterns": ["part 2 Ashra mubashira","Abu Bakr 1","Abu bakr seerah 1","Seerat abu bakr 1","Abu bakr pehla","Abu bakr first","Abo Bakr first part"],
+         "responses": ["Abu bakr","Part 2 - Seerah of Abu Bakr - Part 1 : https://abdulazeemmadani.com/audios_quick/16/part-2-seerah-of-abu-bakr-part-1","As"],
          "context": ["ten companions","abu bakr"]
         },
         {"tag":"Abu Bakr 2",
-         "patterns": ["Abu Bakr 2","Abu bakr dusra","Abu bakr second","Biography Abu bakr first","life of abu bakr 2"],
+         "patterns": ["part 3 Ashra mubashira","Seerat abu bakr 2","Abu Bakr 2","Abu bakr dusra","Abu bakr second","Biography Abu bakr first","life of abu bakr 2"],
          "responses": ["Part 3 - Seerah of Abu Bakr - Part 2 \n https://abdulazeemmadani.com/audios_quick/17/part-3-seerah-of-abu-bakr-part-2"],
          "context": ["ten companions","Abu Bakr"]
         },
         {"tag":"Umar 1",
-         "patterns": ["Umar 1","Umar pehla","umar first","Biography Umar first","life of umar 1"],
-         "responses": ["Part 4 - Seerah of Umar bin Al-Khattab رضي الله عنه - Part 1 \n https://abdulazeemmadani.com/audios_quick/18/part-4-seerah-of-umar-bin-al-khattab-part-1"],
+         "patterns": ["part 4 Ashra mubashira","Seerah Umar ","Umar zindagi","Biography Umar","life of umar"],
+         "responses": ["Part 4 - Seerah of Umar bin Al-Khattab - Part 1 \n https://abdulazeemmadani.com/audios_quick/18/part-4-seerah-of-umar-bin-al-khattab-part-1"],
          "context": ["ten companions","Umar"]
         },
         {"tag":"Umar 2",
-         "patterns": ["part 6 series","Umar 2","Umar dusra","umar second","Biography Umar second","life of umar 2"],
-         "responses": ["Part 5 - Seerah of Umar bin Al-Khattab رضي الله عنه - Part 2 \n https://abdulazeemmadani.com/audios_quick/19/part-5-seerah-of-umar-bin-al-khattab-part-2"],
+         "patterns": ["part 5 Ashra mubashira","Seerah Umar 2","Umar zindagi 2","Biography Umar second","Umar dusra","umar second","life of umar 2"],
+         "responses": ["Part 5 - Seerah of Umar bin Al-Khattab - Part 2 \n https://abdulazeemmadani.com/audios_quick/19/part-5-seerah-of-umar-bin-al-khattab-part-2"],
          "context": ["ten companions","Umar"]
+        },
+        {"tag":"Uthman",
+         "patterns": ["part 6 Ashra mubashira","Seerah Uthman ","Uthman zindagi","Biography Uthman","life of Uthman"],
+         "responses": ["Part 6 - Seerah of Uthmaan bin Affan \n https://abdulazeemmadani.com/audios_quick/20/part-6-seerah-of-uthmaan-bin-affan"],
+         "context": ["ten companions","Uthman"]
+        },
+        {"tag":"Ali",
+         "patterns": ["part 7 Ashra mubashira","Seerah Ali ","Ali zindagi","Biography ali","life of ali"],
+         "responses": ["Part 7 - Seerah of Ali bin Abi Taalib - part 1 \n https://abdulazeemmadani.com/audios_quick/21/part-7-seerah-of-ali-bin-abi-taalib-part-1"],
+         "context": ["ten companions","Ali"]
+        },
+        {"tag":"Ali 2",
+         "patterns": ["part 8 Ashra mubashira","Seerah Ali Taalib 2","Ali Taalib zindagi 2","Biography Ali Taalib second","Ali Taalib dusra","Ali Taalib second","life of Ali Taalib 2"],
+         "responses": ["Part 8 - Seerah of Ali bin Abi Taalib - part 2 \n https://abdulazeemmadani.com/audios_quick/22/part-8-seerah-of-ali-bin-abi-taalib-part-2"],
+         "context": ["ten companions","Ali"]
+        },
+        {"tag":"Abdurrahman",
+         "patterns": ["part 9 Ashra mubashira","Seerah Abdurrahman","Abdurrahman zindagi","Biography Abdurrahman","life Abdurrahman"],
+         "responses": ["Part 9 - Seerah of Abdur-Rahman bin Awf \n https://abdulazeemmadani.com/audios_quick/23/part-9-seerah-of-abdur-rahman-bin-awf"],
+         "context": ["ten companions","Abdurrahman"]
+        },
+        {"tag":"Zubair",
+         "patterns": ["part 10 Ashra mubashira","Seerah Zubair","Zubair zindagi","Biography Zubair","life Zubair"],
+         "responses": ["Part 10 - Seerah of Az-Zubair bin Al-Awwaam \n https://abdulazeemmadani.com/audios_quick/24/part-10-seerah-of-az-zubair-bin-al-awwaam"],
+         "context": ["ten companions","Zubair"]
+        },
+        {"tag":"Sad Waqqaas",
+         "patterns": ["part 11 Ashra mubashira","Seerah Sad Waqqaas","Sad Waqqaas zindagi","Biography Sad Waqqaas","life Sad Waqqaas"],
+         "responses": ["Part 11 - Seerah of Sad bin Abi Waqqaas \n https://abdulazeemmadani.com/audios_quick/25/part-11-seerah-of-sad-bin-abi-waqqaas"],
+         "context": ["ten companions","Sad Waqqaas"]
+        },
+        {"tag":"Sad Waqqaas",
+         "patterns": ["part 13 Ashra mubashira","Seerah Saeed Zayd","Saeed Zayd zindagi","Biography Saeed Zayd","life Saeed Zayd"],
+         "responses": ["Part 13 - Seerah of Saeed bin Zayd \n https://abdulazeemmadani.com/audios_quick/27/part-13-seerah-of-saeed-bin-zayd"],
+         "context": ["ten companions","Saeed Zayd"]
         }
     
    ]
