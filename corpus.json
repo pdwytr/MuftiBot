@@ -1,5 +1,10 @@
 {"uthman": ["osman", "usman", "othman", "uthman", "uthmaan"],
 "abdurrahman":["abdurahman","Abdurahman","Abdulrahman","Abdurehman","Abdurrehman"],
  "sad waqqaas":["Saad","saad bin abi waqqas","Sa'ad","Saad bin waqqas"],
- "umar":["omar","umer","omer"]
+ "umar":["omar","umer","omer"],
+ "juma":["jumuah","jumaah","jumma","jummey","jumey","jumah"],
+ "abu":["abo","aboo","abuu"],
+ "mubashira":["mubashirah","mubasherah","mubeshera","mubesira"],
+ "saeed":["sayeed"],
+ "maafi":["muafi","muaafi","istighfaar","maghfirat","isteghfaar","istighfar"]
 }

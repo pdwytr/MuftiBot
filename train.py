@@ -13,14 +13,19 @@ import random
 def cust_lemma(tokens):
     for i in tokens:
         if len(i)<3 and i.isdigit()==False:
-            tokens.remove(i)  
-            
+            tokens.remove(i)
+        for j in corpus:
+            if i in corpus[j]:
+                tokens[tokens.index(i)] = j
+ 
+
 words=[]
 classes = []
 documents = []
 ignore_words = ['?', '!']
 data_file = open('intents.json').read()
 intents = json.loads(data_file)
+corpus = json.loads(open('corpus.json').read())
 
 
 for intent in intents['intents']:
@@ -38,8 +43,10 @@ for intent in intents['intents']:
 
 # lemmaztize and lower each word and remove duplicates
 words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
-words = sorted(list(set(words)))
+
+#remove two letter words
 cust_lemma(words)
+words = sorted(list(set(words)))
 # sort classes
 classes = sorted(list(set(classes)))
 # documents = combination between patterns and intents
@@ -97,7 +104,7 @@ sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 #fitting and saving the model 
-hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
+hist = model.fit(np.array(train_x), np.array(train_y), epochs=300, batch_size=5, verbose=1)
 model.save('model.h5', hist)
 
 print("model created")

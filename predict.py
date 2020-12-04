@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 import json
 import random
 
-end = "q"
+
 
 
 model = load_model('model.h5')
@@ -43,7 +43,6 @@ def clean_up_sentence(sentence):
     # stem each word - create short form for word
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     cust_lemma(sentence_words)
-    print(sentence_words)
     return sentence_words
 
 # return bag of words array: 0 or 1 for each word in the bag that exists in the sentence
@@ -92,9 +91,5 @@ def chatbot_response(msg):
     res = getResponse(ints, intents)
     return res
 if __name__ == '__main__':
-    while(True):
-        intake = input('enter')
-        if(intake==end):
-            break
-
+        intake = input()
         print(chatbot_response(intake))
